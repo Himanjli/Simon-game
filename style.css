@@ -1,0 +1,53 @@
+body {
+    background-color: midnightblue;
+}
+
+.box {
+    /* margin-top: 6rem;
+    margin-left: 14rem;
+    margin-right: 10rem; */
+    text-align: center;
+}
+
+.box1 {
+    /* margin-top: 6rem;
+    margin-left: 14rem;
+    margin-right: 10rem; */
+    position: absolute;
+    right: 2rem;
+    /* margin-right: 1.5rem; */
+}
+
+.box2 {
+    margin-left: 1.5rem;
+}
+
+.btn-size {
+    width: 15rem;
+    height: 15rem;
+}
+
+.text1 {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.pressed {
+    background-color: white;
+    box-shadow: mintcream;
+}
+
+@media (max-width: 1300px) {
+    .btn-size {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-size {
+        width: 10rem;
+        height: 10rem;
+    }
+}
